@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginWindow</class>
+ <widget class="QMainWindow" name="LoginWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>448</width>
+    <height>434</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+            font-size: 14px;
+background-color:rrgba(68, 150, 231, 237);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QWidget" name="widget" native="true">
+      <property name="styleSheet">
+       <string notr="true">
+background-color:rgba(85, 181, 255, 196);
+            font-size: 14px; 
+padding:2px;</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item alignment="Qt::AlignHCenter">
+        <widget class="QLabel" name="label_18">
+         <property name="minimumSize">
+          <size>
+           <width>400</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>-1</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">COLOR:white;
+background-color:rgba(89, 183, 255, 84);
+font-size: 20px;</string>
+         </property>
+         <property name="text">
+          <string>SUPER SKY TRAVELS</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_24">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"> margin-top: 5px;
+            margin-bottom: 5px;
+            color: #4A4A4A;
+COLOR:white;
+background-color:rgba(89, 183, 255, 0);</string>
+         </property>
+         <property name="text">
+          <string>username:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="textBox_username">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>-1</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"> padding: 2px;
+            border: 1px solid #D8D8D8;
+            border-radius: 5px;
+            background-color: white;
+            color: #4A4A4A;</string>
+         </property>
+         <property name="echoMode">
+          <enum>QLineEdit::Normal</enum>
+         </property>
+         <property name="placeholderText">
+          <string>Enter Username here</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_25">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"> margin-top: 5px;
+            margin-bottom: 5px;
+            color: #4A4A4A;
+COLOR:white;
+background-color:rgba(89, 183, 255, 0);</string>
+         </property>
+         <property name="text">
+          <string>password:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="textBox_password">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>-1</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"> padding: 2px;
+            border: 1px solid #D8D8D8;
+            border-radius: 5px;
+            background-color: white;
+            color: #4A4A4A;</string>
+         </property>
+         <property name="echoMode">
+          <enum>QLineEdit::Password</enum>
+         </property>
+         <property name="placeholderText">
+          <string>Enter Password here</string>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignHCenter">
+        <widget class="QLabel" name="messagelabel">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"> margin-top: 2px;
+            margin-bottom: 5px;
+            color: #4A4A4A;
+COLOR:white;
+background-color:rgba(89, 183, 255, 0);</string>
+         </property>
+         <property name="text">
+          <string>password:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_login">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Nirmala UI</family>
+           <pointsize>-1</pointsize>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color: #1ABC9C;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            margin-top: 20px;
+}
+QPushButton:hover{
+    background-color: #43987C ;
+}</string>
+         </property>
+         <property name="text">
+          <string>LOGIN</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_exit">
+         <property name="minimumSize">
+          <size>
+           <width>150</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Nirmala UI</family>
+           <pointsize>-1</pointsize>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+QPushButton{ 
+    background-color: #D70040;
+    color: white;
+    padding: 5px; 
+            border: none;
+            border-radius: 5px;
+            padding: 10px; 
+}
+
+QPushButton:hover{
+    background-color: #811331 ;
+}
+
+QPushButton:pressed{
+    background-color: #00background-color: #1ABC9C;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            margin-top: 2background-color: #1ABC9C;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            margin-top: 20px;0px;50b3;
+}</string>
+         </property>
+         <property name="text">
+          <string>EXIT</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
